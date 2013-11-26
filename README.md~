@@ -6,7 +6,7 @@ bash shell dotfiles
 
 **prompt.sh** will show up your virtualenv (if activated), your git branch (when on a git repo) color-coded as green for no changes and red for changes.
 
-*note* I use to create virtualenvs inside my main project folder
+*I use to create virtualenvs inside my main project folder
 
 e.g.
 
