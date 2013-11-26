@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -rfn .bash* ~
+cp -rfu .bash* ~
