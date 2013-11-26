@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-bash shell dotfiles
+bash shell dotfiles on master branch
 --------
 
 **prompt.sh** will show up your virtualenv (if activated), your git branch (when on a git repo) color-coded as green for no changes and red for changes.
@@ -31,6 +31,13 @@ and uncomment the line
 inside the prompt.sh
 
 **.bash_aliases** substitute apt-get with aptitude and add some shortcuts for changing folders faster
+
+
+
+powershell dotfiles on windows branch
+--------
+
+**Microsoft.PowerShell_profile.ps1** set some aliases and start the `pshazz` addon from the [scoop command line installer](http://scoop.sh/)
 
 --------
 Feel free to fork and contribute.
