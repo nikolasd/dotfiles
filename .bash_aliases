@@ -1,0 +1,12 @@
+alias ll='ls -la'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+alias ~='cd ~'
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias apt-get='sudo aptitude'
+alias inst='sudo aptitude install'
+alias upgrade='apt-get update && apt-get upgrade && apt-get clean'
+alias netlisteners='lsof -i -P | grep LISTEN'
