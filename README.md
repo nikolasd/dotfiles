@@ -10,21 +10,23 @@ bash shell dotfiles
 
 e.g.
 
-this_is_my_cool_django_app/
+    my_django_project/
 
---------------------------/manage.py
+    -----------------/my_django_app
 
---------------------------/venv
+    -----------------/manage.py
+
+    -----------------/venv
 
 and I also wanted to see the project name (which is the same as my project's folder), so instead of showing up the venv name when virtualenv is activated I show up the upper folder.
 
 If you don't like this behaviour, just comment out the line
 
-`PS1="$cyan(`basename \`dirname \"$VIRTUAL_ENV\"\``)$reset $PS1"`
+    PS1="$cyan(`basename \`dirname \"$VIRTUAL_ENV\"\``)$reset $PS1"
 
 and uncomment the line
 
-`#PS1="(`basename \"$VIRTUAL_ENV\"`)$PS1"`
+    #PS1="(`basename \"$VIRTUAL_ENV\"`)$PS1"
 
 inside the prompt.sh
 

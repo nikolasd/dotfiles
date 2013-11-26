@@ -6,6 +6,7 @@ alias .....='cd ../../../../'
 alias ......='cd ../../../../../'
 alias ~='cd ~'
 alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gc='git add --all && git commit -v'
 alias apt-get='sudo aptitude'
 alias inst='sudo aptitude install'
 alias upgrade='apt-get update && apt-get upgrade && apt-get clean'
